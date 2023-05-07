@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from models.papel import Papel
+from ..models.papel import Papel
 
 router = APIRouter()
 banco_de_dados = []

@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from controllers import papeis_control as papeis
+from .controllers import papeis_control as papeis
 
 router = APIRouter()
 
