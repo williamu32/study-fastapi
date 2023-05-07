@@ -10,6 +10,7 @@ packages = [{include = "study_fastapi"}]
 python = "^3.10"
 fastapi = "^0.95.1"
 uvicorn = {extras = ["standard"], version = "^0.22.0"}
+ormar = {extras = ["sqlite"], version = "^0.12.1"}
 
 
 [build-system]
