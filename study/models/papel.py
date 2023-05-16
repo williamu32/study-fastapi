@@ -7,7 +7,7 @@ class Papel(BaseModel):
     cnpj: str
  """
 import ormar
-from ..config import database, metadata
+from study.config import database, metadata
 
 class Papel(ormar.Model):
     class Meta:

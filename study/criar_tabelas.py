@@ -1,7 +1,7 @@
 import sqlalchemy
 
-from .config import DATABASE_URL, metadata
-from .models.papel import Papel
+from study.config import DATABASE_URL, metadata
+from study.models.papel import Papel
 
 def configurar_banco(database_url = DATABASE_URL):
     engine = sqlalchemy.create_engine(database_url)

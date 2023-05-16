@@ -6,8 +6,8 @@ os.environ['TEST_DATABASE'] = 'true'
 from types import GeneratorType
 from fastapi.testclient import TestClient
 import pytest
-from study_fastapi.main import app
-from study_fastapi.criar_tabelas import configurar_banco
+from main import app
+from study.criar_tabelas import configurar_banco
 
 @pytest.fixture(scope='function')
 def client() -> GeneratorType:

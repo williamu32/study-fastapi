@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 
-from .rotas import router
+from study.rotas import router
 
 app = FastAPI()
 
